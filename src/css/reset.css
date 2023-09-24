@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #fafafa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display";
+  background-color: var(--primary-color);
+}

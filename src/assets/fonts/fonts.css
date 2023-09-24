@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("/src/assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf")
+    format("truetype");
+}
