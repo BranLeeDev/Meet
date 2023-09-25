@@ -1,0 +1,53 @@
+.main__section--introduction .section__container-data {
+  width: 53%;
+}
+
+.main__section--introduction .section__title {
+  width: 59%;
+}
+
+.main__section--introduction .section__paragraph {
+  width: 100%;
+}
+
+.main__section--introduction .section__container-links {
+  flex-direction: row;
+}
+
+.main__section--features .section__list-images {
+  max-width: 85rem;
+}
+
+.main__section--features .section__container-data {
+  width: 75%;
+}
+
+.main__section--features .section__subtitle {
+  width: 59%;
+  max-width: 25rem;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+
+.main__section--features .section__paragraph {
+  width: 100%;
+  max-width: 32rem;
+}
+
+.main__section--experience {
+  background-image: linear-gradient(
+      var(--color-gradient),
+      var(--color-gradient)
+    ),
+    url("/src/assets/images/desktop/image-footer.jpg");
+}
+
+.main__section--experience .section__container-data {
+  width: 65%;
+}
+
+.main__section--experience .section__title {
+  width: 62%;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}

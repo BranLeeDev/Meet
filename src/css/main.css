@@ -56,7 +56,7 @@
       var(--color-gradient)
     ),
     url("/src/assets/images/mobile/image-footer.jpg");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--primary-color);
@@ -226,6 +226,13 @@
 }
 
 /* Section Experience styles*/
+
+.main__section--experience .section__title {
+  width: 62%;
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
 .main__section--experience .section__paragraph {
   color: var(--primary-color);
 }
