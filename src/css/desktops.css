@@ -1,18 +1,18 @@
 .main__section--introduction .section__figure:first-of-type {
-  display: none;
+  display: none !important;
 }
 
 .main__section--introduction .section__figure:nth-of-type(2) {
   position: absolute;
   left: -2rem;
-  display: block;
+  display: block !important;
   width: 26rem;
 }
 
 .main__section--introduction .section__figure:nth-of-type(3) {
   position: absolute;
   right: -2rem;
-  display: block;
+  display: block !important;
   width: 26rem;
 }
 
@@ -47,7 +47,7 @@
       var(--color-gradient),
       var(--color-gradient)
     ),
-    url("/src/assets/images/desktop/image-footer-desktop.jpg");
+    url("https://res.cloudinary.com/dbbixakcl/image/upload/f_auto,q_auto/v1/FrontendMentor/dkdevmouavyrvualyml5") !important;
 }
 
 .main__section--experience .section__container-data {

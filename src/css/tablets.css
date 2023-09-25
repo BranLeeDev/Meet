@@ -39,7 +39,7 @@
       var(--color-gradient),
       var(--color-gradient)
     ),
-    url("/src/assets/images/tablet/image-footer-tablet.jpg");
+    url("https://res.cloudinary.com/dbbixakcl/image/upload/f_auto,q_auto/v1/FrontendMentor/e1s77cqr2w1w3yk9owe7") !important;
 }
 
 .main__section--experience .section__container-data {
