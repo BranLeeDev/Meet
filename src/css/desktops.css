@@ -69,3 +69,19 @@
 .main__section--experience .section__link-download {
   justify-self: flex-end;
 }
+
+.section__link-download {
+  transition: filter 0.3s ease-in-out;
+}
+
+.section__link-download:hover {
+  filter: brightness(1.2);
+}
+
+.main__section--introduction .section__link {
+  transition: filter 0.3s ease-in-out;
+}
+
+.main__section--introduction .section__link:hover {
+  filter: brightness(1.2);
+}
