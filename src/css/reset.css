@@ -1,5 +1,11 @@
 :root {
+  --white-color: #ffffff;
   --primary-color: #fafafa;
+  --secondary-color: #4d96a9;
+  --tertiary-color: #28283d;
+  --quaternary-color: #855fb1;
+  --paragraph-color: #87879d;
+  --color-gradient: rgba(77, 151, 169, 0.9);
 }
 
 * {
@@ -22,6 +28,7 @@ img {
   width: inherit;
   max-width: 100%;
   height: inherit;
+  border-radius: inherit;
 }
 
 a {
