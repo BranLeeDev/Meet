@@ -11,79 +11,113 @@
   </head>
   <body>
     <div id="app">
-      <header>
-        <h1>
-          <span style="display: none">Meet</span>
-          <a href="/" aria-label="Go to home web page">
+      <header class="header">
+        <h1 class="header__title">
+          <span class="title__paragraph" style="display: none">Meet</span>
+          <a class="header__link" href="/" aria-label="Go to home web page">
             <img
               src="/src/assets/images/logo.svg"
               alt="Website logo. This contains the name of the company and colored dots at the beginning of the name"
+              class="header__image"
             />
           </a>
         </h1>
       </header>
-      <main>
-        <section>
-          <figure>
-            <img
-              src="/src/assets/images/mobile/image-hero.png"
-              alt="Image of many users who use the application"
-            />
-            <img
-              style="display: none"
-              src="/src/assets/images/desktop/image-hero-left.png"
-              alt="Six users who use the application, together they form a mountain"
-            />
-            <img
-              style="display: none"
-              src="/src/assets/images/desktop/image-hero-right.png"
-              alt="Six users who use the application, together they form an inverted mountain"
-            />
-          </figure>
-          <h2>Group Chat for Everyone</h2>
-          <p>
+      <main class="main">
+        <section class="main__section main__section--introduction">
+          <div class="section__container-images">
+            <figure class="section__figure">
+              <img
+                src="/src/assets/images/mobile/image-hero.png"
+                alt="Image of many users who use the application"
+                class="figure__image"
+              />
+            </figure>
+            <figure class="section__figure">
+              <img
+                style="display: none"
+                src="/src/assets/images/desktop/image-hero-left.png"
+                alt="Six users who use the application, together they form a mountain"
+                class="figure__image"
+              />
+            </figure>
+            <figure class="section__figure">
+              <img
+                style="display: none"
+                src="/src/assets/images/desktop/image-hero-right.png"
+                alt="Six users who use the application, together they form an inverted mountain"
+                class="figure__image"
+              />
+            </figure>
+          </div>
+          <h2 class="section__title">Group Chat for Everyone</h2>
+          <p class="section__paragraph">
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
-          <div>
-            <a href="/" download="/">Download <span>v1.3</span></a>
-            <a href="/">What is it?</a>
+          <div class="section__container-links">
+            <a href="/" download="/" class="section__link-download"
+              >Download <span>v1.3</span></a
+            >
+            <a href="/" class="section__link">What is it?</a>
           </div>
         </section>
-        <section>
-          <figure>
-            <img
-              src="/src/assets/images/desktop/image-woman-in-videocall.jpg"
-              alt="Woman on video call"
-            />
-            <img
-              src="/src/assets/images/desktop/image-women-videochatting.jpg"
-              alt="Three ladies on video chatting"
-            />
-            <img
-              src="/src/assets/images/desktop/image-men-in-meeting.jpg"
-              alt="Teacher with blue shirt in meeting teaching a student"
-            />
-            <img
-              src="/src/assets/images/desktop/image-man-texting.jpg"
-              alt="Man who typing on his phone"
-            />
-          </figure>
-          <h2>Built for modern use</h2>
-          <p>Smarter meetings, all in one place</p>
-          <p>
+        <section class="main__section main__section--features">
+          <ul class="section__list-images">
+            <li class="list-images__item">
+              <figure class="list-images__figure">
+                <img
+                  src="/src/assets/images/desktop/image-woman-in-videocall.jpg"
+                  alt="Woman on video call"
+                  class="list-images__image"
+                />
+              </figure>
+            </li>
+            <li class="list-images__item">
+              <figure class="list-images__figure">
+                <img
+                  src="/src/assets/images/desktop/image-women-videochatting.jpg"
+                  alt="Three ladies on video chatting"
+                  class="list-images__image"
+                />
+              </figure>
+            </li>
+            <li class="list-images__item">
+              <figure class="list-images__figure">
+                <img
+                  src="/src/assets/images/desktop/image-women-videochatting.jpg"
+                  alt="Three ladies on video chatting"
+                  class="list-images__image"
+                />
+              </figure>
+            </li>
+            <li class="list-images__item">
+              <figure class="list-images__figure">
+                <img
+                  src="/src/assets/images/desktop/image-man-texting.jpg"
+                  alt="Man who typing on his phone"
+                  class="list-images__image"
+                />
+              </figure>
+            </li>
+          </ul>
+          <h2 class="section__title">Built for modern use</h2>
+          <p class="section__subtitle">Smarter meetings, all in one place</p>
+          <p class="section__paragraph">
             Send messages, share files, show your screen, and record your
             meetings — all in one workspace. Control who can join with
             invite-only team access, data encryption, and data export.
           </p>
         </section>
-        <section>
-          <h2>Experience more together</h2>
-          <p>
+        <section class="main__section main__section--experience">
+          <h2 class="section__title">Experience more together</h2>
+          <p class="section__paragraph">
             Stay connected with reliable HD meetings and unlimited one-on-one
             and group video sessions.
           </p>
-          <a href="/" download="/">Download <span>v1.3</span></a>
+          <a href="/" download="/" class="section__link-download"
+            >Download <span>v1.3</span></a
+          >
         </section>
       </main>
     </div>
