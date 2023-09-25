@@ -42,6 +42,14 @@
   line-height: 1.625rem;
 }
 
+.main__section--experience {
+  background-image: linear-gradient(
+      var(--color-gradient),
+      var(--color-gradient)
+    ),
+    url("/src/assets/images/desktop/image-footer-desktop.jpg");
+}
+
 .main__section--experience .section__container-data {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

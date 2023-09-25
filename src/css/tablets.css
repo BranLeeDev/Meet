@@ -39,7 +39,7 @@
       var(--color-gradient),
       var(--color-gradient)
     ),
-    url("/src/assets/images/desktop/image-footer.jpg");
+    url("/src/assets/images/tablet/image-footer-tablet.jpg");
 }
 
 .main__section--experience .section__container-data {
